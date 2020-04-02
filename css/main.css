@@ -10,17 +10,27 @@ html {
   color: #113c00;
 }
 
-.nav a {
+a {
   color: #568c36;
+}
+
+.nav a {
+  color: #fff;
   text-decoration: none;
 }
 
+a:hover {
+  color: #113c00;
+}
+
 .nav a:hover {
+  background-color: #fff;
   color: #113c00;
 }
 
 .nav a:focus {
   outline: 3px solid #000;
+  text-decoration: none;
 }
 
 .masthead {
@@ -33,16 +43,6 @@ html {
   position: relative;
   background-color: #113c00;
   z-index: 2;
-}
-
-.nav a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.nav a:hover {
-  background-color: #fff;
-  color: #113c00;
 }
 
 .about {
@@ -81,6 +81,10 @@ td {
 .btn:hover {
   background-color: #568c36;
   border-color: #568c36;
+}
+
+.contrast {
+  font-weight: bold;
 }
 
 .footer {
