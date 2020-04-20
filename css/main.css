@@ -11,7 +11,7 @@ html {
 }
 
 a {
-  color: #113c00;
+  color: #568c36;
 }
 
 .nav a {
@@ -27,8 +27,6 @@ a:hover {
 .nav a:focus {
   background-color: #fff;
   color: #113c00;
-  outline: 3px solid #000;
-  text-decoration: none;
 }
 
 .masthead {
@@ -81,13 +79,13 @@ td {
   border-color: #568c36;
 }
 
-.contrast {
-  font-weight: bold;
-}
-
 .footer {
   background-color: #113c00;
   color: #fff;
+}
+
+p a {
+  color: #113c00;
 }
 
 @media only screen and (min-width: 35em) {
